@@ -6,29 +6,81 @@
 @import url('footer.css');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color1: #000e56;
+  --primary-color2: #001caa;
+  --primary-color3: #2e53ff;
+  --primary-color4: #b0beff;
+
+  --neutral-color1: #000;
+  --neutral-color2: #fff;
 }
 
 .linkedin a:hover {
-    color: #0077b5;
+  color: #0077b5;
 }
 
 .instagram a:hover {
-    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
-    background-clip: text;
-    color: transparent;
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  background-clip: text;
+  color: transparent;
 }
 
 .link-contact a:hover {
-    color: #4fce6d;
+  color: #4fce6d;
+}
+
+/* FADE IN - Aparece suavemente */
+.fadeIn {
+  animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* SLIDE UP - Desliza de baixo para cima */
+.slideUp {
+  animation: slideUp 0.6s ease-out;
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* SCALE UP - Cresce do centro */
+.scaleUp {
+  animation: scaleUp 0.5s ease-out;
+}
+
+@keyframes scaleUp {
+  from { 
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to { 
+    opacity: 1;
+    transform: scale(1);
+  }
 }

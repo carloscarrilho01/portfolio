@@ -11,6 +11,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
 
+<script
+    type="text/javascript" >window.$crisp = []; window.CRISP_WEBSITE_ID = "01e2cdbd-cec7-40aa-b840-d023a4f68ca7"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
+
 <link rel="stylesheet" href="css/style.css">
 
 <title>Portfólio - Carlos Carrilho</title>
@@ -22,24 +25,25 @@
         <h1>Carlos Carrilho</h1>
 
         <nav>
-            <a href="#about">Sobre Mim</a>
-            <a href="#projects">Projetos</a>
+            <a id="link-about" href="#about">Sobre Mim</a>
+            <a id="link-projects" href="#projects">Projetos</a>
         </nav>
     </header>
 
     <section class="CTA">
         <div class="content-cta">
-            <div class="text-cta">
+
+            <div class="text-cta fadeIn">
                 <h2>"Programo, soluciono e evoluo. Cada projeto é uma oportunidade de inovação."</h2>
             </div>
 
-            <div class="btn-cta">
-                <a href="https://www.contate.me/5511915656962" target="_blank">Orçamento Gratuito!</a>
-            </div>
+            <button class="btn-cta scaleUp" ><a href="https://www.contate.me/5511915656962">Orçamento
+                    gratuito!</a></button>
+
         </div>
 
 
-        <div class="container-contact">
+        <div class="container-contact slideUp">
             <ol class="list-contact">
                 <li class="linkedin"><a href="https://www.linkedin.com/in/carlos-carrilho-2a5419236"
                         target="_blank">Linkedin<i class="fa-brands fa-linkedin"></i></a></li>
@@ -55,8 +59,8 @@
 
     <section class="projects" id="projects">
 
-        <h1 class="projects-title">Projetos</h1>
-        <h2 class="projects-subtitle">Ultimos Projetos</h2>
+        <h1 class="projects-title fadeIn">Projetos</h1>
+        <h2 class="projects-subtitle fadeIn">Ultimos Projetos</h2>
 
         <div class="cards-projects">
             <div class="content-projects">
@@ -122,10 +126,10 @@
     </section>
 
     <section id="about" class="about">
-        <h1>Sobre Mim</h1>
+        <h1 class="about-title">Sobre Mim</h1>
         <div class="content-about">
             <p>“Me formei em Análise e Desenvolvimento de Sistemas e trabalho como desenvolvedor front-end. Crio sites e
-                sistemas usando HTML, CSS, JavaScript e React. Meu foco é ajudar pessoas e negócios,
+                sistemas. Com o foco em ajudar pessoas e negócios,
                 oferecendo soluções que facilitem o dia a dia, organizem processos e tragam resultados de verdade para o
                 seu estabelecimento.”</p>
     </section>

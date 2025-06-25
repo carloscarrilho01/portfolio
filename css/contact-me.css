@@ -2,9 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5% auto;
+    margin: 8% auto;
     flex-direction: column;
-    width: 500px;
+    width: 70%;
     height: 480px;
     color: #fff;
     background-color: #000e56;
@@ -34,6 +34,13 @@
 
 .content-form input::placeholder {
     padding-left: 10px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+}
+
+.content-form textarea::placeholder {
+    color: #000;
+    font-family: "Poppins", sans-serif;
 }
 
 .content-form textarea {
@@ -53,6 +60,7 @@
     background-color: #2e53ff;
     color: #fff;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .btn-form:hover {
@@ -75,8 +83,8 @@
     }
 }
 
-@media (width <= 428px){
-     .container-contact-me {
+@media (width <=428px) {
+    .container-contact-me {
         width: 350px;
         height: 430px;
         margin: 30% auto;
