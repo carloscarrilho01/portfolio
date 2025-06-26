@@ -30,10 +30,10 @@
     border: none;
     background-color: #98aaff;
     margin-bottom: 10px;
+    padding-left: 10px;
 }
 
 .content-form input::placeholder {
-    padding-left: 10px;
     color: #000;
     font-family: "Poppins", sans-serif;
 }
