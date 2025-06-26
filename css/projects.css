@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 95%;
     flex-direction: column;
     margin: 5% auto;
 }
@@ -83,6 +83,7 @@
 @media (width <=375px) {
     .projects img {
         width: 150px;
+        margin: 0 5px 0 5px;
     }
 
     .description-project {
@@ -100,11 +101,16 @@
         align-items: center;
         display: flex;
     }
+
+    .cards-projects {
+        gap: 15px;
+    }
 }
 
-@media (width <=428px){
-     .projects img {
+@media (width <=428px) {
+    .projects img {
         width: 150px;
+        margin: 0 5px 0 5px;
     }
 
     .description-project {
